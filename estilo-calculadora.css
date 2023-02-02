@@ -3,35 +3,49 @@
 }
 
 .contenedor { 
-    width: 200px;
-    height: 400px;
-    border:solid blue 2px;
+    width: 700px;
+    height: 750px;
+    border:solid dimgrey 10px;
     display: grid;
-    justify-content: space-between;
-    align-items: center;
-    
+    margin-left: 500px; 
+    background-color:cadetblue;
+
+
+   
 }
 
 .pantalla {
-    margin: 10px;
-    width: 180px;
-    height: 90px;
-    background-color: mediumaquamarine;
-    border: solid blue 2px;
-    
+   margin: 50px;
+    width: 600px;
+    height: 150px;
+    background-color:cornflowerblue;
+    border: solid rgba(0, 110, 255, 0.432) 8px;
+    text-align: end;   
+    font-size: 48px;
 }
 
 .teclado {
+    margin-left: 100px;
+    width: 500px;
+    height:400px ;
+    border: none;  
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    background-color: dimgrey;
     
-    border: solid blue 2px;
-    
-}
-
-.teclado button {
-    border: solid blue 2px;
 }
 
 button {
-    width:45px;
-    height: 45px;
+    width:80px;
+    height: 80px;
+    border: solid brown 10px;
+    background-color: darkred;
+    color:beige;
+    font-weight:bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:larger;
 }
