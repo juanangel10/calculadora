@@ -7,7 +7,7 @@
     height: 750px;
     border:solid dimgrey 10px;
     display: grid;
-   margin-left: 500px; 
+   margin: auto auto; 
     background-color:cadetblue;   
 }
 
